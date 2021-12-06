@@ -4,7 +4,10 @@
   "description": "Assignment 2 Backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
   },
   "repository": "git@github.com:kmixc/101247765_assignment2_backend.git",
   "author": "Oliver Kmiec",
@@ -13,5 +16,5 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^6.0.12"
-  }
+  },
 }
