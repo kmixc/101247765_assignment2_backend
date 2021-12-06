@@ -29,6 +29,6 @@ app.get('/', (req, res) => {
     res.send("<h1>Welcome to Note taking application - Week06 Exercise</h1>");
 });
 
-app.listen(8081, () => {
-    console.log("Server is listening on port 8081");
+app.listen(8080, () => {
+    console.log("Server is listening on port 8080");
 });
