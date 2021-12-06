@@ -3,9 +3,7 @@ const mongoose = require("mongoose")
 const employeeRoutes = require('./routes/EmployeeRoutes.js')
 
 const DB_URL = "mongodb+srv://kmixc:Reloop2001@cluster0.ijglg.mongodb.net/101247765_assignment2?retryWrites=true&w=majority"
-
 const app = express()
-
 const cors = require('cors')
 
 app.use(cors())
