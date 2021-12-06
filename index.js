@@ -22,6 +22,11 @@ mongoose.connect(DB_URL, {
     process.exit();
 });
 
+
+app.get('/', (req, res) => {
+    res.send("<h1>Welcome to assignment 2 backend</h1>");
+});
+
 app.listen(8081, () => {
     console.log("Server is listening on port 8081");
 });
