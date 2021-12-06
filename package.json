@@ -4,7 +4,6 @@
   "description": "Assignment 2 Backend",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git@github.com:kmixc/101247765_assignment2_backend.git",
