@@ -1,12 +1,13 @@
-const EmployeeModel = require("../models/EmployeeModel.js");
+const EmployeeModel = require('../models/EmployeeModel.js');
 const express = require('express');
 const { networkInterfaces } = require('os');
-const router = express.Router();
+
+const router = express.Router()
 
 router.get('/employees', async (req, res) => {
-    EmployeeModel.find({}, (err, employees) => {
+    EmployeeModel.find({}, (err, notes) => {
         if (err) res.send({ "error": err.toString() })
-        res.send(employees)
+        res.send(notes)
     })
 })
 
@@ -50,5 +51,6 @@ router.delete('/employees/:id', async (req, res) => {
         res.status(500).send({ error: err.toString() })
     }
 })
+
 
 module.exports = router
