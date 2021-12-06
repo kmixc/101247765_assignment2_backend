@@ -26,7 +26,7 @@ mongoose.connect(DB_URL, {
 
 
 app.get('/', (req, res) => {
-    res.send("<h1>Welcome to Note taking application - Week06 Exercise</h1>");
+    res.send("<h1>Welcome to assignment 2 backend</h1>");
 });
 
 app.listen(8081, () => {
